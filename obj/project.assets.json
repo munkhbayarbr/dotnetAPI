@@ -4470,11 +4470,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/muba/Ncompass/learning/MyApi/MyApi.csproj",
+      "projectUniqueName": "/Users/muba/Ncompass/learning/dotnetAPI/MyApi.csproj",
       "projectName": "MyApi",
-      "projectPath": "/Users/muba/Ncompass/learning/MyApi/MyApi.csproj",
+      "projectPath": "/Users/muba/Ncompass/learning/dotnetAPI/MyApi.csproj",
       "packagesPath": "/Users/muba/.nuget/packages/",
-      "outputPath": "/Users/muba/Ncompass/learning/MyApi/obj/",
+      "outputPath": "/Users/muba/Ncompass/learning/dotnetAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/muba/.nuget/NuGet/NuGet.Config"

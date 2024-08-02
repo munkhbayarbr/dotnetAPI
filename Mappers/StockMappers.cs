@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using dotnetAPI.Dtos.Stock;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using MyApi.Dtos.Stock;
 using MyApi.Models;
@@ -37,5 +38,17 @@ namespace MyApi.Mappers
                 MarketCap = StockDto.MarketCap
             };
         }
+        public static Stock ToUpdateRequestDto(this UpdateStockRequestDto StockDto)
+        {
+            return new Stock
+            {
+                Symbol = StockDto.Symbol,
+                CompanyName = StockDto.CompanyName,
+                Purchase = StockDto.Purchase,
+                LastDiv = StockDto.LastDiv,
+                Industry = StockDto.Industry,
+                MarketCap = StockDto.MarketCap
+            };
+         }
     }
 }
