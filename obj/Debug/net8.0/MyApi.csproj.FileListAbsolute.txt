@@ -273,3 +273,4 @@
 /Users/muba/Ncompass/learning/dotnetAPI/obj/Debug/net8.0/MyApi.pdb
 /Users/muba/Ncompass/learning/dotnetAPI/obj/Debug/net8.0/MyApi.genruntimeconfig.cache
 /Users/muba/Ncompass/learning/dotnetAPI/obj/Debug/net8.0/ref/MyApi.dll
+/Users/muba/Ncompass/learning/MyApi/obj/Debug/net8.0/MyApi.sourcelink.json
