@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MyApi.Dtos.Comment;
 
 namespace MyApi.Dtos.Stock
 {
@@ -17,9 +18,6 @@ namespace MyApi.Dtos.Stock
         public string Industry { get; set; } = string.Empty;
         public long MarketCap { get; set; }
 
-        internal static Models.Stock ToStockFromCreateDto()
-        {
-            throw new NotImplementedException();
-        }
+        public List<CommentDto> Comments { get; set; } = new List<CommentDto>();
     }
 }

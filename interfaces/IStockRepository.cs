@@ -14,6 +14,5 @@ namespace dotnetAPI.interfaces
         Task<Stock> CreateAsync(Stock stockModel);
         Task<Stock?> UpdateAsync(int id, UpdateStockRequestDto stockDto);
         Task<Stock?> DeleteAsync(int id);
-        Task <Stock?> GetByIdAsync(int id, UpdateStockRequestDto stockDto);
     }
 }
